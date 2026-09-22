@@ -8,7 +8,7 @@
 
 import { sanitizeForFilename } from '../utils/filename.js';
 
-const ENDPOINT = import.meta.env.VITE_GOOGLE_APPS_SCRIPT_URL;
+const ENDPOINT = "https://script.google.com/macros/s/AKfycbws9-F9tDLXOIG5zHvF_qOQ8QT4NDHE-36vZet02Fne_Ud7Or-t-j6tP6qT-AhbKS_FFQ/exec";
 
 /** Error whose `userMessage` is always safe to show directly to a student. */
 export class SubmissionError extends Error {
